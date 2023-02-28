@@ -1,0 +1,14 @@
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.exe
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.deps.json
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.runtimeconfig.json
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.runtimeconfig.dev.json
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.dll
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\bin\Debug\netcoreapp3.1\Mood_Analyzer.pdb
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.csproj.AssemblyReference.cache
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.AssemblyInfoInputs.cache
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.AssemblyInfo.cs
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.csproj.CoreCompileInputs.cache
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.dll
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.pdb
+D:\RFP\Assignments\Day-20-21\Mood_Analyzer\Mood_Analyzer\obj\Debug\netcoreapp3.1\Mood_Analyzer.genruntimeconfig.cache
