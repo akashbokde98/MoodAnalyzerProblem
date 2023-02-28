@@ -19,24 +19,37 @@ namespace Mood_Analyzer
             this.message = message;
         }
         //Analysing Mood
-        public string AnalyseMood()
+        public string AnalyseMood1()
         {
-            string mood = null;// Taken NULL Value Input
+            string nullMood = null; //Taken Null Value Input
             try
             {
-                if (message.Contains(mood))
+                if (string.IsNullOrEmpty(nullMood))
                 {
-                    return "Sad";
-
-                }
-                else
-                {
-                    return "Happy";
+                    throw new MoodAnalysisException(ExceptionMessage.NullMoodName);
                 }
             }
-            catch (Exception)
+            catch (MoodAnalysisException)
             {
-                return "Happy";
+                Console.WriteLine("Entered Invalid Null Value");
+                return nullMood;
+            }
+            return "";
+        }
+        public string AnalyseMood2()
+        {
+            string emptyMood = ""; //Taken Empty Value Input
+            try
+            {
+                if (string.IsNullOrEmpty(emptyMood))
+                {
+                    throw new MoodAnalysisException(ExceptionMessage.EmptyMoodName);
+                }
+            }
+            catch (MoodAnalysisException)
+            {
+                Console.WriteLine("Entered Invalid Empty Value");
+                return emptyMood;
             }
             return "";
         }

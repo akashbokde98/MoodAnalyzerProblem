@@ -11,19 +11,31 @@ namespace UnitTest
         {
         }
 
-        // TC 2.1
+        // TC 3.1 - NULL Mood
         [Test]
         [TestCase("I am in sad mood")]
         public void Test1_AnalyzeMood_PassingValidInput_ReturnTrue(string input)
         {
             MoodAnalyser msg = new MoodAnalyser(input);
-            string expected = "Happy";
+            string expected = null;
 
-            var actual = msg.AnalyseMood();
+            string actual = msg.AnalyseMood1();
 
             Assert.AreEqual(expected, actual);
         }
 
+        // TC 3.2 - Empty Mood
+        [Test]
+        [TestCase("I am in Sad mood")]
+        public void Test2_AnalyzeMood_PassingValidInput_ReturnTrue(string input)
+        {
+            MoodAnalyser msg = new MoodAnalyser(input);
+            string expected = "";
+
+            string actual = msg.AnalyseMood2();
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 
 }
