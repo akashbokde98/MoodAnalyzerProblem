@@ -9,10 +9,9 @@ namespace Mood_Analyzer
             Console.WriteLine("Welcome To Mood Analyzer Problem!");
 
             MoodAnalyser obj1 = new MoodAnalyser("I am in sad mood");
-            Console.WriteLine("I am in {0} mood", obj1.AnalyseMood());
-            MoodAnalyser obj2 = new MoodAnalyser("I am in any mood");
-            Console.WriteLine("I am in {0} mood", obj2.AnalyseMood());
+            Console.WriteLine("{0} Mood", obj1.AnalyseMood());
         }
 
     }
+
 }

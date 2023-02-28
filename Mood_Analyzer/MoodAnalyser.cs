@@ -21,16 +21,24 @@ namespace Mood_Analyzer
         //Analysing Mood
         public string AnalyseMood()
         {
-            Console.WriteLine("Enter Mood Name-"); //User Input
-            string mood =Console.ReadLine().ToLower();
-            if (message.Contains(mood))
+            string mood = null;// Taken NULL Value Input
+            try
             {
-                return "Sad";
+                if (message.Contains(mood))
+                {
+                    return "Sad";
+
+                }
+                else
+                {
+                    return "Happy";
+                }
             }
-            else
+            catch (Exception)
             {
                 return "Happy";
             }
+            return "";
         }
     }
 }
